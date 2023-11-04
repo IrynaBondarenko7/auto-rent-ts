@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { lazy } from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 import Layout from "./components/Layout";
