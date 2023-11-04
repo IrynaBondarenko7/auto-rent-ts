@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/92.50edbafb.chunk.js","mappings":"wKAAe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,WACd,C","sources":["pages/Catalog.tsx"],"sourcesContent":["export default function Catalog() {\n  return <div>Catalog</div>;\n}\n"],"names":["Catalog","_jsx","children"],"sourceRoot":""}
