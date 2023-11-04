@@ -1,12 +1,12 @@
-import { lazy } from "react";
-import { Route, Routes, Navigate } from "react-router-dom";
-import Layout from "./components/Layout";
+import { lazy } from 'react';
+import { Route, Routes, Navigate } from 'react-router-dom';
+import Layout from './components/Layout';
 
-const HomePage = lazy(() => import("./pages/Home"));
-const CatalogPage = lazy(() => import("./pages/Catalog"));
-const FavoritesPage = lazy(() => import("./pages/Favorites"));
+const HomePage = lazy(() => import('./pages/Home'));
+const CatalogPage = lazy(() => import('./pages/Catalog'));
+const FavoritesPage = lazy(() => import('./pages/Favorites'));
 
-function App() {
+const App: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
@@ -17,6 +17,6 @@ function App() {
       </Route>
     </Routes>
   );
-}
+};
 
 export default App;
